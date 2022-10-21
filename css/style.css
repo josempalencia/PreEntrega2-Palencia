@@ -1,0 +1,145 @@
+h1 { font-size: 3.5em;}
+h2 { font-size: 2.7em;}
+h3 { font-size: 2em;}
+p { font-size: 1.5em;}
+ul { list-style: none;}
+li { font-size: 1.5em;}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 80vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 200px 50px;
+    
+}
+#hero h1 {
+    text-shadow: 1px 1px 2px black;
+    padding-bottom: 40px;
+}
+#nuestros-seguros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    
+}
+#nuestros-seguros h2 {
+    color: #109d9d;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    font-size: 3.3em;
+}
+.seguro h3 {
+    color: white;
+}
+#nuestros-seguros .seguro {
+    padding: 50px;
+    margin: 25px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px black;
+}
+.seguro:first-child {
+            background-image: linear-gradient(0deg, 
+            rgba(0,0,0,0.3), 
+            rgba(0,0,0,0.3)
+            ), url(../assets/autos.jpg);
+}
+.seguro:nth-child(2) {
+            background-image: linear-gradient(0deg, 
+            rgba(0,0,0,0.3), 
+            rgba(0,0,0,0.3)
+            ), url(../assets/salud.jpg);
+
+}
+.seguro:nth-child(3) {
+            background-image: linear-gradient(0deg, 
+            rgba(0,0,0,0.3), 
+            rgba(0,0,0,0.3)
+            ), url(../assets/hogar.jpeg);
+}
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px black;
+    background-color: aquamarine
+}
+button:hover {
+    background-color: rgb(14, 143, 100);
+    transform: scale(1.08,1.08);
+}
+#caracteristicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px 60px;
+    text-align: center;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+#caracteristicas ul {
+    text-align: start;
+}
+#caracteristicas li {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+#caracteristicas h2 {
+    padding-bottom: 40px;
+}
+#caracteristicas h3 {
+    padding-top: 40px;
+}
+
+.pie-pagina {
+    padding: 15px 30px;
+}
+.pie-pagina a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.25em;
+}
+.pie-pagina a:hover {
+    color: #6bdbb6;
+}
+.pie-pagina p {
+    margin: 0;
+    font-size: 1.15em;
+    padding: 15px;
+}
+@media (min-width: 600px){
+    .mis_cartas form {
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+        padding-top: 45px;
+    }
+    #hero p {
+        padding: 0px 250px;
+    }
+    #hero h1 {
+        padding: 0px 300px;
+    }
+    #caracteristicas h3 {
+        padding: 20px 250px;
+    }
+}
