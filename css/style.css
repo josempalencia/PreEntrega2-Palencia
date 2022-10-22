@@ -143,3 +143,17 @@ button:hover {
         padding: 20px 250px;
     }
 }
+.texto-seguro {
+    padding: 50px 5px;
+    color: #109d9d;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+
+}
+.lista-item {
+    padding: 50px 5px;
+    color: #109d9d;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
