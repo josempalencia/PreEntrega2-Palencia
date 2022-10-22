@@ -76,7 +76,7 @@ button {
     border-radius: 8px;
     border: 1px solid black;
     box-shadow: 2px 2px 8px black;
-    background-color: aquamarine
+    background-color: #12a9a9
 }
 button:hover {
     background-color: rgb(14, 143, 100);
@@ -126,6 +126,11 @@ button:hover {
     font-size: 1.15em;
     padding: 15px;
 }
+.principal p {
+    padding: 50px 5px;
+    color: #109d9d;
+    font-weight: bold;
+}
 @media (min-width: 600px){
     .mis_cartas form {
         display: flex;
@@ -141,6 +146,9 @@ button:hover {
     }
     #caracteristicas h3 {
         padding: 20px 250px;
+    }
+    .principal p {
+        padding: 0px 200px;
     }
 }
 .texto-seguro {
@@ -174,4 +182,62 @@ button:hover {
 }
 .botonera-main {
     height: 25vh;
+}
+.enviar__datos input[type=text] {
+    background-color:#e6f7ff;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.enviar__datos input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .enviar__datos  input[type=submit] {
+    width: 100%;
+    background-color: #109d9d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .enviar__datos input[type=submit]:hover {
+    background-color: white;
+    color: #00bfff;
+  }
+  
+  .enviar__datos {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .titulo__aclientes {
+    text-align: center;
+    color: #109d9d;
+    text-shadow: 1px 1px 2px grey;
+    padding: 50px;
+    font-size: 3.5em;
+  }
+.video__blog1 {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 20px;
+    border-radius: 7px;
+    margin: 40px 0px;
+}
+.principal h1 {
+    padding: 50px 5px;
+    color: #109d9d;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
 }
