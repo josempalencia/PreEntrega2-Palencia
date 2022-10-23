@@ -1,10 +1,13 @@
-h1 { font-size: 3.5em;}
+h1 { font-size: 3.2em;}
 h2 { font-size: 2.7em;}
 h3 { font-size: 2em;}
 p { font-size: 1.5em;}
 ul { list-style: none;}
 li { font-size: 1.5em;}
 
+.navbar-brand:hover {
+    transform: scale(1.08,1.08);
+}
 #hero {
     display: flex;
     align-items: center;
@@ -22,6 +25,7 @@ li { font-size: 1.5em;}
 #hero h1 {
     text-shadow: 1px 1px 2px black;
     padding-bottom: 40px;
+    line-height: 0.8;
 }
 #nuestros-seguros {
     display: flex;
@@ -142,7 +146,7 @@ button:hover {
         padding: 0px 250px;
     }
     #hero h1 {
-        padding: 0px 220px;
+        padding: 15px 220px;
     }
     #caracteristicas h3 {
         padding: 20px 250px;
