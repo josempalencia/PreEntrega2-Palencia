@@ -1,3 +1,21 @@
+.pie-pagina {
+  padding: 15px 30px; }
+
+.pie-pagina a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.25em; }
+
+.pie-pagina a:hover {
+  color: #6bdbb6; }
+
+.pie-pagina p {
+  margin: 0;
+  font-size: 1.15em;
+  padding: 15px; }
+
 h1 {
   font-size: 3.2em; }
 
@@ -109,24 +127,6 @@ button:hover {
 
 #caracteristicas h3 {
   padding-top: 40px; }
-
-.pie-pagina {
-  padding: 15px 30px; }
-
-.pie-pagina a {
-  padding: 5px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-  font-size: 1.25em; }
-
-.pie-pagina a:hover {
-  color: #6bdbb6; }
-
-.pie-pagina p {
-  margin: 0;
-  font-size: 1.15em;
-  padding: 15px; }
 
 .principal p {
   padding: 50px 5px;
