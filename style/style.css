@@ -73,11 +73,10 @@ li {
   background-position: center center;
   color: white;
   padding: 200px 50px; }
-
-#hero h1 {
-  text-shadow: 1px 1px 2px black;
-  padding-bottom: 40px;
-  line-height: 0.8; }
+  #hero h1 {
+    text-shadow: 1px 1px 2px black;
+    padding-bottom: 40px;
+    line-height: 0.8; }
 
 #nuestros-seguros {
   display: flex;
@@ -87,23 +86,20 @@ li {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 40px; }
-
-#nuestros-seguros h2 {
-  color: #109d9d;
-  text-shadow: 1px 1px 2px black;
-  font-weight: bold;
-  font-size: 3.3em; }
-
-.seguro h3 {
-  color: white; }
-
-#nuestros-seguros .seguro {
-  padding: 50px;
-  margin: 25px;
-  background-position: center center;
-  background-size: cover;
-  border-radius: 8px;
-  box-shadow: 1px 1px 2px black; }
+  #nuestros-seguros h2 {
+    color: #109d9d;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    font-size: 3.3em; }
+  #nuestros-seguros .seguro {
+    padding: 50px;
+    margin: 25px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px black; }
+    #nuestros-seguros .seguro h3 {
+      color: white; }
 
 .seguro:first-child {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/autos.jpg); }
@@ -137,20 +133,16 @@ button:hover {
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   color: white;
   text-shadow: 1px 1px 2px black; }
-
-#caracteristicas ul {
-  text-align: start; }
-
-#caracteristicas li {
-  font-weight: bold;
-  text-align: center;
-  margin: 10px; }
-
-#caracteristicas h2 {
-  padding-bottom: 40px; }
-
-#caracteristicas h3 {
-  padding-top: 40px; }
+  #caracteristicas ul {
+    text-align: start; }
+  #caracteristicas li {
+    font-weight: bold;
+    text-align: center;
+    margin: 10px; }
+  #caracteristicas h2 {
+    padding-bottom: 40px; }
+  #caracteristicas h3 {
+    padding-top: 40px; }
 
 .principal p {
   padding: 50px 5px;
@@ -185,6 +177,8 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center; }
+  .llamame button {
+    background-color: #008793 !important; }
 
 .botonera-main {
   height: 25vh; }
