@@ -1,0 +1,32 @@
+@media (min-width: 800px){
+    .mis_cartas form {
+        display: flex;
+        flex-direction: row;
+        height: 50vh;
+        padding-top: 45px;
+    }
+    #hero p {
+        padding: 0px 250px;
+    }
+    #hero h1 {
+        padding: 15px 220px;
+    }
+    #caracteristicas h3 {
+        padding: 20px 250px;
+    }
+    .principal p {
+        padding: 0px 200px;
+    }
+    .video__blog1 > iframe {
+        width: 550px;
+        height: 250px;
+    }
+    .video__blog1 {
+        height: 70vh;
+    }
+}
+@media (min-width:600px){
+    #hero p {
+        padding: 0px 150px;
+    }
+}
