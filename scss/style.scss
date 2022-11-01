@@ -163,6 +163,7 @@ button:hover {
     text-shadow: 1px 1px 2px black;
     font-weight: bold;
     font-size: 1.2em;
+    line-height: 0,9;
 }
 .botonera {
     margin: 10px 0px;
@@ -233,6 +234,9 @@ button:hover {
     padding: 20px;
     border-radius: 7px;
     margin: 40px 0px;
+}
+.video__blog1 > iframe {
+    padding: 10px 0px;
 }
 .principal h1 {
     padding: 50px 5px;
