@@ -137,6 +137,13 @@ button:hover {
     .principal p {
         padding: 0px 200px;
     }
+    .video__blog1 > iframe {
+        width: 550px;
+        height: 250px;
+    }
+    .video__blog1 {
+        height: 70vh;
+    }
 }
 @media (min-width:600px){
     #hero p {
