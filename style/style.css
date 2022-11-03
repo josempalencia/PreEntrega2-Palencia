@@ -34,7 +34,9 @@
     width: 550px;
     height: 250px; }
   .video__blog1 {
-    height: 70vh; } }
+    height: 70vh; }
+  .acordeon {
+    margin: 0px 250px; } }
 
 @media (min-width: 600px) {
   #hero p {
