@@ -29,18 +29,21 @@
   #caracteristicas h3 {
     padding: 20px 250px; }
   .principal p {
-    padding: 0px 200px; }
+    padding: 20px 100px !important; }
   .video__blog1 > iframe {
     width: 550px;
     height: 250px; }
   .video__blog1 {
-    height: 70vh; }
+    height: 70vh;
+    margin: 20px 150px !important; }
   .acordeon {
     margin: 0px 250px; } }
 
-@media (min-width: 600px) {
-  #hero p {
-    padding: 0px 150px; } }
+@media (max-width: 575px) {
+  .principal p {
+    font-size: 1.4em;
+    line-height: 1.1;
+    color: #282d31 !important; } }
 
 h1 {
   font-size: 3.2em; }
