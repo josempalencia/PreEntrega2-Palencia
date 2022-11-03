@@ -7,6 +7,6 @@ Es una web diseñada para la captación de clientes para la comercialización de
 😁 Usen el enlace para descargar y probar la pagina.
 
 ```bash
-https://github.com/josempalencia/PreEntrega2-Palencia.git
+https://github.com/josempalencia/PreEntrega3-Palencia.git
 ```
 ## thanks
