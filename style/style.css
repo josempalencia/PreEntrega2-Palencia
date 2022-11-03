@@ -92,9 +92,6 @@ li {
   padding-top: 50px;
   padding-bottom: 40px; }
   #nuestros-seguros h2 {
-    color: #109d9d;
-    text-shadow: 1px 1px 2px black;
-    font-weight: bold;
     font-size: 3.3em; }
   #nuestros-seguros .seguro {
     padding: 50px;
@@ -154,28 +151,18 @@ button:hover {
   color: #109d9d;
   font-weight: bold; }
 
-.texto-seguro {
+.texto-seguro, #nuestros-seguros h2, .lista-item, .texto-contacto {
   padding: 50px 5px;
   color: #109d9d;
   text-shadow: 1px 1px 2px black;
   font-weight: bold; }
 
 .lista-item {
-  padding: 50px 5px;
-  color: #109d9d;
-  text-shadow: 1px 1px 2px black;
-  font-weight: bold;
   font-size: 1.2em;
   line-height: 0,9; }
 
 .botonera {
   margin: 10px 0px; }
-
-.texto-contacto {
-  padding: 50px 5px;
-  color: #109d9d;
-  text-shadow: 1px 1px 2px black;
-  font-weight: bold; }
 
 .llamame {
   margin: 50px 0px;

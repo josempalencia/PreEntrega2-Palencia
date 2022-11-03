@@ -38,9 +38,7 @@ li { font-size: 1.5em;}
     padding-top: 50px;
     padding-bottom: 40px;
         h2 {
-            color: #109d9d;
-            text-shadow: 1px 1px 2px black;
-            font-weight: bold;
+            @extend .texto-seguro;
             font-size: 3.3em;
         }
         .seguro {
@@ -125,10 +123,7 @@ button:hover {
 
 }
 .lista-item {
-    padding: 50px 5px;
-    color: #109d9d;
-    text-shadow: 1px 1px 2px black;
-    font-weight: bold;
+    @extend .texto-seguro;
     font-size: 1.2em;
     line-height: 0,9;
 }
@@ -136,10 +131,7 @@ button:hover {
     margin: 10px 0px;
 }
 .texto-contacto {
-    padding: 50px 5px;
-    color: #109d9d;
-    text-shadow: 1px 1px 2px black;
-    font-weight: bold;
+    @extend .texto-seguro;
 }
 .llamame {
     margin: 50px 0px;
