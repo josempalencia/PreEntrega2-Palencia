@@ -52,7 +52,10 @@
   .accordion-button {
     background-color: #19c2c2;
     color: white;
-    text-shadow: 1px 1px 1.5px black; } }
+    text-shadow: 1px 1px 1.5px black; }
+  .wsp-icon img {
+    width: 80px !important;
+    height: auto; } }
 
 h1 {
   font-size: 3.2em; }
@@ -237,3 +240,10 @@ button {
   color: #109d9d;
   text-shadow: 1px 1px 2px black;
   font-weight: bold; }
+
+.wsp-icon img {
+  width: 110px;
+  height: auto;
+  position: fixed;
+  right: 15px;
+  bottom: 30px; }
