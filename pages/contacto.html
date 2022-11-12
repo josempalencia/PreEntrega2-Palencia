@@ -93,15 +93,19 @@
     </div>
     <div class="container-fluid">
         <div class="llamame">
-            <form class="row g-3">
+            <form class="row g-3" name="contact" method="POST" data-netlify="true">
                 <div class="col-auto">
                 <label for="staticEmail2" class="visually-hidden">Email</label>
                 <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Contáctanos">
                 </div>
                 <div class="col-sm-12 col-md-4">
-                <label for="inputPassword2" class="visually-hidden">Password</label>
-                <input type="password" class="form-control" id="inputPassword2" placeholder="Tu número">
+                <label for="inputPassword2" class="visually-hidden">name</label>
+                <input type="name" class="form-control" id="inputPassword2" placeholder="Tu nombre">
                 </div>
+                <div class="col-auto">
+                  <label for="inputPassword2" class="visually-hidden">number</label>
+                  <input type="number" class="form-control" id="inputPassword2" placeholder="Tu número">
+                  </div>
                 <div class="col-auto">
                 <button type="submit" class="btn btn-success mb-5">Llamame</button>
                 </div>
