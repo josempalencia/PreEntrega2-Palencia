@@ -1,14 +1,23 @@
-const user = "admin";
-const pass = "pass1234";
+const idButton = document.getElementById("identify");
+const welcomeText = document.getElementById("welcome");
 
-for (let i = 0 ; i < 3 ; i++){
+function usernamePrompt() {
+    // pedimos al usuario su nombre
+    let username = prompt("Ingrese su nombre");
 
-    let u = prompt ("ingrese su usuario");
-    let p = prompt ("ingrese su contraseña");
-
-    if (u == user && p == pass){
-
-        alert("Bienvendio Admin");
-        break;
+    if (!username) return;
+    // verificamos que es un nombre valido (eg. no tiene simbolos)
+    for (const letter of username) {
+        if (["@", "$", "!", "-"].includes(letter)) {
+            alert("Nombre contiene simbolos invalidos. Ingrese otro por favor.");
+            return;
+        }
     }
+    // escondemos el boton
+    idButton.style = "display: none;";
+    // mostramos nombre en la pagina
+    welcomeText.innerHTML = "Bienvenido " + username;
 }
+idButton.addEventListener("click", function (evt) {
+    usernamePrompt();
+});
