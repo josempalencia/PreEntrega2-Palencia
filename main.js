@@ -20,6 +20,8 @@ function usernamePrompt() {
     // mostramos nombre en la pagina
     welcomeText.innerHTML = "Bienvenido " + username;
     if (email) welcomeText.innerHTML += " (" + email + ")"
+    localStorage.setItem("email",email)
+    localStorage.setItem("username",username)
 }
 idButton.addEventListener("click", function (evt) {
     usernamePrompt();
