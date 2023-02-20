@@ -32,14 +32,14 @@ $(function() {
         url: 'https://newsapi.org/v2/everything?q=aseguradoras+seguros+vida+salud&apiKey=04b7ce92e5c54eff9414146de8453fdf',
         method: 'GET',
         success: function(response) {
-          var articles = response.articles;
-          var $list = $('#news-list');
+          let articles = response.articles;
+          let $list = $('#news-list');
           $list.empty();
           articles.forEach(function(article) {
-            var $li = $('<li>');
-            var $title = $('<h4>').text(article.title);
-            var $description = $('<p>').text(article.description);
-            var $link = $('<a>').attr('href', article.url).text('Leer más');
+            let $li = $('<li>');
+            let $title = $('<h4>').text(article.title);
+            let $description = $('<p>').text(article.description);
+            let $link = $('<a>').attr('href', article.url).text('Leer más');
             $li.append($title, $description, $link);
             $list.append($li);
           });
