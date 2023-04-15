@@ -59,30 +59,29 @@
           <p>Encontraras con mi ayuda experta, las mejores ofertas en seguros de todo tipo.
               Seguros de coche, hogar, responsabilidad civil, salud y mucho más.
           </p>
-          <button id="btn-news" class="btn btn-primary">Noticias de seguros de vida y salud</button>
+          <!-- <button id="open-chat">¿Tienes alguna pregunta sobre seguros?</button> -->
+
+	<!-- Modal de chat -->
+	<div id="chat-modal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h2>Preguntas sobre seguros</h2>
+			<form id="question-form">
+				<label for="question-input">Haz tu pregunta:</label>
+				<input type="text" id="question-input">
+				<button type="submit">Enviar</button>
+			</form>
+			<div id="answer"></div>
+		</div>
+	</div>
     </section>
-    <div class="modal fade" id="modal-news" tabindex="-1" role="dialog" aria-labelledby="modal-news-label" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modal-news-label">Noticias de seguros de vida y salud</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <ul id="news-list"></ul>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="container">
         <section id="nuestros-seguros">
             <h2>Nuestros Seguros</h2>
             <div class="mis_cartas">
                 <form action="pages/seguros.html">
                 <div class="seguro">
-                    <h3>Seguros de Coches</h3>
+                    <h3>R. Civil Sanitaria</h3>
                     <button href="pages/seguros.html">+ Info</button>
                 </div>
                 <div class="seguro">
